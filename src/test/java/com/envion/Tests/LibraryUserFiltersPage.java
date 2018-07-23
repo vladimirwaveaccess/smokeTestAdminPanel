@@ -19,18 +19,21 @@ public class LibraryUserFiltersPage extends BaseTest {
 
     @Test(priority = 3)
     public void testOpenBarcodeFilteringPage() {
+        app.dashboard.backButtonPush();
         app.dashboard.openBarcodeFilteringPage();
         Assert.assertEquals(app.dashboard.checkingBarcodeFilteringPage(), true);
     }
 
     @Test(priority = 4)
     public void testOpenPortalRedirectFilteringPage() {
+        app.dashboard.backButtonPush();
         app.dashboard.openPortalRedirectFilteringPage();
         Assert.assertEquals(app.dashboard.checkingPortalRedirectFilteringPage(), true);
     }
 
     @Test(priority = 5)
     public void testOpenAccessKeyFilteringPage() {
+        app.dashboard.backButtonPush();
         app.dashboard.openAccessKeyFiltering();
         Assert.assertEquals(app.dashboard.checkingAccessKeyFilteringPage(), true);
     }

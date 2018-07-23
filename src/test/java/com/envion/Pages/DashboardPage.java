@@ -320,4 +320,8 @@ public class DashboardPage extends BasePage {
     public String checkOpenPageService() {
         return indentifierPageService.getText();
     }
+
+    public void backButtonPush() {
+        BackButtonPush();
+    }
 }

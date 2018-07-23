@@ -10,4 +10,8 @@ public class BasePage {
     public BasePage() {
         PageFactory.initElements(driver, this);
     }
+
+    public void BackButtonPush() {
+        driver.navigate().back();
+    }
 }

@@ -41,4 +41,9 @@
             <class name="com.envion.Tests.LibraryUserReportsPage" />
         </classes>
     </test>
+    <test name="LibraryUserLogOutPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserLogOutPage" />
+        </classes>
+    </test>
 </suite>

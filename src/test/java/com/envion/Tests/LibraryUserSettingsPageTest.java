@@ -10,12 +10,5 @@ public class LibraryUserSettingsPageTest extends BaseTest{
         app.login.login(validUser);
         Assert.assertEquals(app.dashboard.checkLinkPath().contains("rbdigitalinternal"), true);
     }
-/*
 
-    @Test(priority = 8)
-    public void testOpenReportsPage() {
-        app.dashboard.openReportsPage();
-        Assert.assertEquals(app.dashboard.checkingReportsPage(), true);
-    }
-*/
 }
