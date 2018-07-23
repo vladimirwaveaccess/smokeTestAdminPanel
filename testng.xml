@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTest" verbose="1" >
+    <test name="LibraryUserSettingsPageTest" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserSettingsPageTest" />
+        </classes>
+    </test>
+    <test name="LibraryUserFiltersPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserFiltersPage" />
+        </classes>
+    </test>
+    <test name="LibraryUserAdminsPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserAdminsPage" />
+        </classes>
+    </test>
+    <test name="LibraryUserPatronsPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserPatronsPage" />
+        </classes>
+    </test>
+    <test name="LibraryUserPageSettings" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserPageSettings" />
+        </classes>
+    </test>
+    <test name="LibraryUserServiceSubscriptions" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserServiceSubscriptions" />
+        </classes>
+    </test>
+    <test name="LibraryUserLicensesPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserLicensesPage" />
+        </classes>
+    </test>
+    <test name="LibraryUserReportsPage" >
+        <classes>
+            <class name="com.envion.Tests.LibraryUserReportsPage" />
+        </classes>
+    </test>
+</suite>
